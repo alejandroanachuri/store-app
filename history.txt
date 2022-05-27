@@ -1,0 +1,10 @@
+
+ng generate component shared/components/cart --module=app.module.ts
+
+Crear modulo con ruta
+ ng g m pages/checkout -m=app --route checkout
+
+ Flex: auto;
+Esto es equivalente a flex: 1 1 auto. Ten cuidado, este no es el valor por defecto. 
+Se da el tamaño del elemento basado en sus width/ height, pero hace que sea totalmente flexible, 
+de manera que absorbe cualquier espacio adicional a lo largo del eje principal.
